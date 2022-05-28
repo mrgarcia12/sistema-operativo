@@ -1,0 +1,39 @@
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://i.imgur.com/3nviI6Z.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-self: flex-end;
+}
+
+
+.barra{
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(68, 68, 68);
+    display: flex;
+    position: absolute;
+    justify-content:space-between;
+    align-items: center;
+    align-self: flex-end;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.items {
+    width: 5rem;
+    height: 2rem;
+    background-color: rgb(5, 5, 5);
+}
+
+.inicio{
+    width: 7rem;
+    height: 2rem;
+    background-color: rgb(244, 244, 245);
+}
+
+.hora {
+    width: 11rem;
+    height: 2rem;
+    background-color: rgb(255, 255, 255);
+}

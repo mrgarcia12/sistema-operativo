@@ -1,0 +1,41 @@
+.ventana{
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    display: none;
+    align-self: center;
+    left: 1rem;
+    border-radius: 15px;
+}
+
+.ventana-mostrar{
+    display: flex;
+}
+
+.ventana div{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.ventana div div{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+
+
+
+.ventana div img{
+    width: 2rem;
+    height: 2rem;
+}
+
